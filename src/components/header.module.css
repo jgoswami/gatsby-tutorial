@@ -52,16 +52,20 @@
 
 .nav-list {
   margin: 0;
-  display: flex;
+  display: flex; 
   flex-flow: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding: 7px 14px 10px;
   list-style: none;
+  max-width: 15%;
 
 
   li {
+  	display: block;
+  	flex: 0 1 auto;
     letter-spacing: 5.5px;
     background: none;
+
 
     a {
 		color: #7CFC00;

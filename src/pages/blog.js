@@ -38,7 +38,7 @@ const Blog = () => {
  
  	return (
  		<Layout>
- 			<ul className={posts}>
+			<ul className={posts}>
  				{data.allMarkdownRemark.edges.map(edge => {
  					return (
  						<li className={posts} key={edge.node.id}>
@@ -48,7 +48,7 @@ const Blog = () => {
  							<div className={meta}>
  								<span>
  									Posted on {edge.node.frontmatter.date} <span> / </span> {" "}
- 								 	{edge.node.timeToRead} min read 
+ 	 							 	{edge.node.timeToRead} min read 
  								 </span>
  							</div>
  							{
